@@ -31,7 +31,7 @@ def pass_generator():
 
 
 def save_data():
-    # Make a text file and open it (append)
+    # Make a text file and open it (as append)
     with open("passwords.txt", "a") as data:
 
         # Get the info from entry fields
