@@ -36,7 +36,7 @@ def save_data():
 
         # Get the info from entry fields
         website_get = Entry.get(e_website)
-        email_username_get = Entry.get(e_website)
+        email_username_get = Entry.get(e_emailUsername)
         password_get = Entry.get(e_password)
 
         # Ask user to confirm data
